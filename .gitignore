@@ -1,0 +1,13 @@
+.nextflow*
+work/
+debug/
+singularity_img/
+*.html*
+CoLaus_workflow_trace.txt*
+slurm*
+test_pqs/
+rnaseq/
+old_pq_files/
+merged_pq/
+featureCounts/
+*.vcf.gz
