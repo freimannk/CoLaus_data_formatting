@@ -9,10 +9,9 @@ process FILTER_PER_GENE {
     
 
     input:
-    val str_phenotype_ids  // list of phenotypes?
+    val str_phenotype_ids  
     val pq_files
 
-    // Output data
     output:
 
 
@@ -28,7 +27,7 @@ process FILTER_PER_GENE {
   
         """
 
-                isFirst=1
+        isFirst=1
         for pq_file in ${pq_files_str} ;
           do
             if [ \$isFirst -eq 1 ];
